@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #aaaaaa;
+  font-family: 'Nunito', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+  background: rgba(0,0,0,0.6);
+  padding: 20px, 0;
+}
+
+.navbar-dark .navbar-nav .navbar-link {
+  color: #fff;
+  padding-left: 15px;
+}
+
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link.hover {
+  color: #fff;
+  padding-left: 15px;
+}
+
+#about-me {
+  max-height: 540px;
+}
+
+.heading-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  max-width: 100%
+}
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: bolder;
+  color: #fff;
+  font-family: monospace;
+}
+
+.heading-content h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+#about .btn {
+  border: 2px solid red;
+  width: 40%;
+  padding: 15px 22px;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#about .btn a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#about .btn a:hover{
+  border: 2px solid #1eaaaa;
+  cursor: pointer;
+  
+}
+
+#index a {
+  font-weight: 500;
+  color: #02027a;
+}
